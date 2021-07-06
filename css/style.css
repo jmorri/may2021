@@ -77,7 +77,51 @@ footer {
 	top:1px;
 }
 
-@media screen and (min-width: 800px) {
+@media only screen and (min-width: 1008px) {
+
+    main {
+        flex-direction: column;
+    }
+
+.column {
+ width: 32%;
+ }
+
+    
+}
+
+@media only screen and (max-width: 1008px) {
+
+.container {  
+flex-wrap: wrap;  
+}  
+
+    
+}
+
+@media only screen and (min-width: 641px) {
+
+    main {
+        flex-direction: column;
+    }
+    
+    .column {
+        width: 30%;
+        }
+
+
+}
+
+@media only screen and (max-width: 641px) {
+
+
+.container {  
+flex-wrap: wrap;  
+}  
+    
+}
+
+@media screen and (min-width: 640px) {
     main {
         flex-direction: row;
     }
@@ -88,7 +132,7 @@ footer {
         padding: 0;
       } 
 }
-@media screen and (max-width: 600px) {  
+@media screen and (max-width: 640px) {  
     
     .container {  
       flex-wrap: wrap;  
